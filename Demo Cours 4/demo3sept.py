@@ -55,3 +55,10 @@ print(f"|{animal3:^12}|{age_animal3:^5}|") #padding aligné au centre
 print(f"|{animal4:^12}|{age_animal4:^5}|")
 print("--------------------")
 
+
+
+produits = [("Pomme", 1.25, 10), ("Banane", 0.75, 5), ("Orange", 2.50, 3)]
+
+print(f"{'Produit':<10} {'Prix':>10} {'Quantité':>10}")
+for nom, prix, quantite in produits:
+    print(f"{nom:<10} {prix:>10.2f} {quantite:>10}")
