@@ -37,9 +37,9 @@
 # # valeur = (variable_flottante2 == variable_flottante) and (a < b) and (a > c)
 
 
-avoir_faim = True
-age_du_client = 2
-genre_client = "fémini"
+avoir_faim = False
+age_du_client = 20
+genre_client = "féminin"
 
 client_possible = ((avoir_faim == True) or ((age_du_client >= 18) and (genre_client == "féminin")))
 print(f"Client possible? : {client_possible}")
