@@ -4,7 +4,8 @@
 
 
 # age = int(input("Quel est ton age?:"))
-# avoir_faim = bool(input("As-tu faim? Oui ou Non:"))
+avoir_faim_oui_non = bool(input("As-tu faim? Oui ou Non:"))
+avoir_faim = (True if (avoir_faim_oui_non == "Oui") else False)
 
 # if(avoir_faim == "Oui" or "oui"):
 #     valeur_avoir_faim = True
