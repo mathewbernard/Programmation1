@@ -7,10 +7,10 @@
 avoir_faim_oui_non = bool(input("As-tu faim? Oui ou Non:"))
 avoir_faim = (True if (avoir_faim_oui_non == "Oui") else False)
 
-# if(avoir_faim == "Oui" or "oui"):
-#     valeur_avoir_faim = True
-# else:
-#     valeur_avoir_faim = False
+if(avoir_faim == "Oui" or "oui"):
+    valeur_avoir_faim = True
+else:
+    valeur_avoir_faim = False
 
 
 
