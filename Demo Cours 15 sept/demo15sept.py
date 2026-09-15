@@ -30,7 +30,7 @@
 
 
 
-jour = 1
+jour = 2
 
 match jour:
     case 1:
