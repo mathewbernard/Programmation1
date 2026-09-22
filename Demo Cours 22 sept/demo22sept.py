@@ -1,21 +1,22 @@
 # print("Début")
 
 
+
 # valeur = input("Veux-tu être mon ami? ").lower().strip()
 # if(valeur == "oui"):
 #     print("Merci!")
 # else:
 #     print("Sorry!")
 
-NOMBRE_CACHE = 5
+# NOMBRE_CACHE = 5
 
 
 
-while True:
-    nombre = int(input("inscrire un nombre: "))
-    if(nombre == NOMBRE_CACHE):
-        print("Trouvé!")
-        break
+# while True:
+#     nombre = int(input("inscrire un nombre: "))
+#     if(nombre == NOMBRE_CACHE):
+#         print("Trouvé!")
+#         break
 
 
 
@@ -64,11 +65,5 @@ while True:
 
 
 # print("Décollage!")
-
-
-
-
-
-
 
 
