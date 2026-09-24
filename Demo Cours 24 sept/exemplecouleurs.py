@@ -1,3 +1,7 @@
+## Auteur       :   Mathew Bernard
+## Date         :   24 septembre 2026
+## Description  :   Exemple important de couleurs
+
 from colorama import Fore, Back, Style, init
 init(autoreset=True)
 
