@@ -194,4 +194,4 @@
 # Ctrl + V	                        Colle dans le terminal actif
 # Ctrl + ↑/↓	                    Permet de défiler en haut/bas
 # Maj + PgUp/PgDn	                Permet de défiler en haut/bas selon les pages
-# Ctrl + Home/End	                Permet de défiler au début/fin du terminal
+# Ctrl + Home/End	                Permet de défiler au début/fin du termin
