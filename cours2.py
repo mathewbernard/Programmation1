@@ -10,12 +10,11 @@
 # print(c)
 
 
-nom = "Mathew"
-age = 17
-# print() peut accepter plusieurs arguments entre les ( )
-print("Bonjour", nom, ", tu as", age, "ans")
+# nom = "Mathew"
+# age = 17
+# # print() peut accepter plusieurs arguments entre les ( )
+# print("Bonjour", nom, ", tu as", age, "ans")
 
-# Chaîne formatée, ou « f-string »
-message = f"Bonjour {nom}, tu as {age} ans."
-print(message)
-
+# # Chaîne formatée, ou « f-string »
+# message = f"Bonjour {nom}, tu as {age} ans."
+# print(message)
