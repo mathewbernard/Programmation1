@@ -153,3 +153,45 @@
 #------------------------------------------------------------------------
 
 # Raccourcis                      # Signification
+
+# Ctrl + N	                        Nouveau fichier
+# Ctrl + O	                        Ouvrir un fichier
+# Ctrl + S	                        Enregistrer
+# Ctrl + Maj + S	                Enregistrer sous...
+# Ctrl + K S	                    Tout enregistrer
+# Ctrl + F4	                        Fermer
+# Ctrl + K Ctrl + W	                Tout fermer
+# Ctrl + Maj + T	                Réouvrir l'éditeur fermé
+# Ctrl + K Enter	                Conserver l'éditeur
+# Ctrl + Tab	                    Ouvrir le dernier éditeur utilisé précédent
+# Ctrl + Maj + Tab	                Ouvrir le plus ancien éditeur utilisé
+# Ctrl + K P	                    Copie le chemin du fichier actuel
+# Ctrl + K R	                    Montre le fichier dans l'explorateur de fichiers
+# Ctrl + K O	                    Montre le fichier actuel dans une nouvelle fenêtre
+
+#------------------------------------------------------------------------
+# Débogage
+#------------------------------------------------------------------------
+
+# Raccourcis                      # Signification
+
+# F9	                            Active/Désactive un point d'arrêt
+# F5	                            Démarrer ou continuer le débogage
+# Maj + F5	                        Arrêter
+# F11 ou Maj + F11	                Pas à pas détaillé ou pas à pas sortant
+# F10	                            Pas à pas principal
+# Ctrl + K Ctrl + I             	Afficher par pointage
+
+#------------------------------------------------------------------------
+# Terminal
+#------------------------------------------------------------------------
+
+# Raccourcis                      # Signification
+
+# Ctrl + `	                        Active/Désactive le terminal
+# Ctrl + Maj + `	                Créer un nouveau terminal
+# Ctrl + C	                        Copie la sélection
+# Ctrl + V	                        Colle dans le terminal actif
+# Ctrl + ↑/↓	                    Permet de défiler en haut/bas
+# Maj + PgUp/PgDn	                Permet de défiler en haut/bas selon les pages
+# Ctrl + Home/End	                Permet de défiler au début/fin du terminal
