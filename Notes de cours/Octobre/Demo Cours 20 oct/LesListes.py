@@ -48,7 +48,7 @@ print(valeurs)
 
 liste_valeurs = [10,20,44,22,11,35]
 liste_valeurs.sort() # Trie la liste en ordre croissant ou en ordre alphabétique, mais est permanent
-liste_valeurs.sort(reverse=True) # Trie la liste en ordre décroissant ou en order alphabétique inverse
+liste_valeurs.sort(reverse=True) # Trie la liste en ordre décroissant ou en ordre alphabétique inverse
 liste_valeurs_triees = sorted(liste_valeurs) # Fait une copie de la liste, puis trie la copie
 print(liste_valeurs)
 print(liste_valeurs_triees)
