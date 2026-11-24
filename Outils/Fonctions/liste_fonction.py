@@ -90,3 +90,50 @@ def afficher_menu(nom, options):
     print("-"*24)
     valeur_menu = obtenir_nombre(1,len(options),"votre choix")
     return valeur_menu
+
+#------------------------------------------------------------------------
+# Lire un entier
+#------------------------------------------------------------------------
+
+def lire_entier(message, minimum=0, maximum=99):
+    """Demande un nombre entier jusqu'à ce que la saisie soit valide.
+
+    Args:
+        message (str): Le message affiché à l'utilisateur.
+        minimum (int, optional): La plus petite valeur acceptée. Par défaut 0.
+        maximum (int, optional): La plus grande valeur acceptée. Par défaut 99.
+
+    Returns:
+        int: L'entier saisi, compris entre minimum et maximum.
+    """
+    valide = False
+    while not valide:
+        try:
+            valeur = int(input(message))
+            if minimum <= valeur <= maximum:
+                valide = True
+            else:
+                print(f"Erreur : entrez un nombre entre {minimum} et {maximum}.")
+        except ValueError:
+            print("Erreur : ce n'est pas un nombre entier.")
+    return valeur
+
+#------------------------------------------------------------------------
+# Lire oui ou non
+#------------------------------------------------------------------------
+
+def lire_oui_non(message):
+    """Pose une question fermée jusqu'à obtenir « o » ou « n ».
+
+    Args:
+        message (str): La question affichée à l'utilisateur.
+
+    Returns:
+        bool: True si l'utilisateur répond « o », False s'il répond « n ».
+    """
+    reponses_valides = ("o", "n")
+    reponse = input(message).strip().lower()
+    while reponse not in reponses_valides:
+        print("Erreur : répondez par o ou n.")
+        reponse = input(message).strip().lower()
+    return reponse == "o"
